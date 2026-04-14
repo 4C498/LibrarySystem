@@ -102,12 +102,12 @@ class Program
     {
         Library library = new();
         library.AddBook("1984", "George Orwell");
-        library.RegisterUser("Makar");
-        library.BorrowBook("Makar", "1984");
+        library.RegisterUser("Vyacheslav");
+        library.BorrowBook("Vyacheslav", "1984");
         library.ShowBooks();
-        library.ReturnBook("Makar", "1984");
+        library.ReturnBook("Vyacheslav", "1984");
         library.ShowBooks();
 
-        //New comment
+        //Добавление строчки
     }
 }
