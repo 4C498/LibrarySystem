@@ -9,6 +9,8 @@ class Library
 
     public Library()
     {
+        if (File.Exists(BooksFile)) File.Delete(BooksFile);
+        if (File.Exists(UsersFile)) File.Delete(UsersFile);
         LoadData();
     }
 
